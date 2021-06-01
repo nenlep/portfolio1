@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="./assets/css/style.css">
+
+      
+
+      <!-- =====BOX ICONS===== -->
+      <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+      <title>Portfolio website complete</title>
+  </head>
+<body>
+
+    <nav class="nav">
+      <div class="nav-fixed">
+        <div class="menu-icon-wrapper">
+          <div class="menu-icon" onclick="toggleCssMenu(this)">
+            <div class="three-line">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div id="cssmenu">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#stack">STACK</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#contact">ConTACT</a></li>
+            </ul>
+        </div>
+      </div>
+      
+    </nav>
+    <!--start CssMenu-->
+  
+  <main class="main_wrapper">
+    <section id="home">
+      <h1 class="home_left">
+        <p class="text">Hi,</p>
+        <p class="text">I am <span>Nenlep,</span></p>
+        <p class="text">Front-end Web Developer</p>
+      </h1>
+      <div class="main_button">
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+      <div class="home__social">
+        <a href="linkedin.com/in/nenlep"  class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="github.com/nenlep" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section_title">About</div>
+      <div class="about_body">
+        <div class="about_img">
+          <img src="./assets/img/work4.jpg" alt="work" srcset="">
+        </div>
+        <div class="about_text">
+          <p>I am a self-taught Front-end Web Developer with 2+ years of experience i have been building websites since 2019 with a focus on resposive design and accessibility. Besides that i also enjoy playing video games and watching movies. </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack">
+      <div class="section_title">Skills</div>
+      <div class="skills_body">
+        <div class="skills_list">
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-html5 skills__icon'></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+            <div class="skills__bar skills__html"></div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-css3 skills__icon'></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div class="skills__bar skills__css"></div>
+            <div>
+              <span class="skills__percentage">85%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-javascript skills__icon'></i>
+              <span class="skills__name">JavaScript</span>
+            </div>
+            <div class="skills__bar skills__js"></div>
+            <div>
+              <span class="skills__percentage">70%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-bootstrap skills__icon'></i>
+                <span class="skills__name">Bootstrap</span>
+              </div>
+              <div class="skills__bar skills__boot"></div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+          </div>
+        </div>
+        <div class="about_img">
+          <img src="./assets/img/work3.jpg" alt="work" srcset="">
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="section_title">Work</div>
+      <div class="work_body">
+        <div class="work">
+          <div class="work_img">
+            <a href="https://l00p-studios.netlify.app/"><img src="./assets/img/l00p-studios.netlify.app_ (1).png" alt="loop studios" srcset=""></a>
+          </div>
+          <div class="work_desc">
+            This is a fully responsive landing page that i built as my submission to the <a href="https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw">Frontend Mentor</a> challenge. Built with HTML, CSS and JavaScript and hosted using Netlify CMS.
+            <ul class="site_stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>Netlify</li>
+            </ul>
+            <a href="https://github.com/nenlep/loopstudios">View Source Code</a>
+          </div>
+        </div>
+        <div class="work">
+          <div class="work_img">
+            <a href="https://www.ritpank.com/"><img src="./assets/img/www.ritpank.com_.png" alt="riptank Nigeria Limited" srcset=""></a>
+          </div>
+          <div class="work_desc">
+            Built using HTML and CSS, this is a very minimalist and fully responsive website built for a client, Ritpank Nigeria Limited, that required a website to advertise their main product, the Judicial Law Dictionary. Hosted using Netlify CMS.
+            <ul class="site_stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>NEtlfiy</li>
+            </ul>
+            <a href="https://github.com/nenlep/book">View Source Code</a>
+          </div>
+        </div>
+
+        <div class="work">
+          <div class="work_img">
+            <a href="https://todo-app-b5d7f.web.app/"><img src="./assets/img/todo-app-b5d7f.web.app_.png" alt="todo app" srcset=""></a>
+          </div>
+          <div class="work_desc">
+            This is a fully responsive ReactJS CRUD web app that i built and hosted using firebase.
+            <ul class="site_stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>REACTJS</li>
+              <li>FIREBase</li>
+            </ul>
+            <a href="https://github.com/nenlep/todoapp">View Source Code</a>
+          </div>
+        </div>
+
+        <div class="work">
+          <div class="work_img">
+            <a href="https://recipe-applet.netlify.app/"><img src="./assets/img/recipeapp.png" alt="todo app" srcset=""></a>
+          </div>
+          <div class="work_desc">
+            A single page responsive web application built using ReactJS. The user enters a specific food,fruit or vegetable and searches and the API returns a list of meals using that food,fruit or vegetable. The user can then click on each meal to view the recipe.
+            Uses Edamam API.
+            <ul class="site_stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>REACTJS</li>
+              <li>Netlify CMS</li>
+            </ul>
+            <a href="https://github.com/nenlep/recipeapp">View Source Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section_title">Contact</div>
+      <div class="form_container">
+        <form action="POST" data-netlfiy="true" class="contact_form">
+          <input type="text" name="name" aria-label="name" id="name" placeholder="Name" class="contact__input">
+          <input type="email" name="email" aria-label="email" id="email" placeholder="Email" class="contact__input">
+          <textarea name="message" id="message" cols="0" rows="10" class="contact__input"></textarea>
+          <div class="main_button">
+            <input type="submit" aria-label="submit" value="submit" class="btn">
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+      <p class="footer__title">Nenlep</p>
+      <div class="footer__social">
+          <a href="linkedin.com/in/nenlep" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+          <a href="github.com/nenlep" class="footer__icon"><i class='bx bxl-github' ></i></a>
+      </div>
+      <p>&#169; 2021 copyright all right reserved</p>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--===== SCROLL REVEAL =====-->
+  
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
